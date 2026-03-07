@@ -8,7 +8,7 @@ function hero_content()
         <div className="heroContent">
             <div class="leftDiv">
                 <div class="photo">
-                    <img src={photo} alt="Image of Rashedul Islam"/>
+                    <img src={photo} alt="me"/>
                 </div>
             </div>
 
