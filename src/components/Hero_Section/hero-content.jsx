@@ -2,23 +2,23 @@ import React from "react";
 import photo from "../../assets/img/photo.png";
 import AnimatedButton from "../Buttons/AnimatedButton.jsx";
 
-function hero_content()
+function HeroContent()
 {
     return (
         <div className="heroContent">
-            <div class="leftDiv">
-                <div class="photo">
+            <div className="leftDiv">
+                <div className="photo">
                     <img src={photo} alt="me"/>
                 </div>
             </div>
 
-            <div class="rightDiv">
-                <div class="rightDivText">
-                    <p className="hi">Hello! I<span class="apostrophe">'</span>m</p>
-                    <p class="name">Rashed</p>
-                    
+            <div className="rightDiv">
+                <div className="rightDivText">
+                    <p className="hi">Hello! I<span className="apostrophe">'</span>m</p>
+                    <p className="nameLight">Rashed</p>
+
                     <div className="animatedText">
-                        I'm a <span></span>
+                        I&apos;m a <span></span>
                     </div>
                 </div>
 
@@ -30,4 +30,4 @@ function hero_content()
         </div>
 )};
 
-export default hero_content;
+export default HeroContent;

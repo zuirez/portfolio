@@ -28,11 +28,28 @@
     box-sizing: border-box;
 }
 
+html,
+body
+{
+    scroll-behavior: unset;
+    overscroll-behavior-y: none;
+}
 
+html.lenis,
+html.lenis body
+{
+    height: auto;
+}
 
+.lenis.lenis-smooth
+{
+    scroll-behavior: auto;
+}
 
-/* Cursor mod */
-
+.lenis.lenis-stopped
+{
+    overflow: hidden;
+}
 
 
 
@@ -202,8 +219,8 @@
 
 .heroContent
 {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -265,7 +282,7 @@
     font-size: 75px;
 }
 
-.name
+.nameLight
 {
     color: var(--accent-color);
     font-family: "Bebas Neue", serif;
@@ -331,6 +348,28 @@
     {
         content: "Programmer";
     }
+}
+
+@media (max-width: 1024px)
+{
+    .heroContent
+    {
+        flex-direction: column;
+        gap: 20px;
+        padding: 110px 20px 40px;
+    }
+
+    .photo img
+    {
+        width: min(80vw, 420px);
+        height: auto;
+    }
+
+    .nameLight
+    {
+        font-size: clamp(6rem, 20vw, 10rem);
+    }
+
 }
 
 @keyframes typing 
