@@ -31,6 +31,11 @@
 
 
 
+/* Cursor mod */
+
+
+
+
 /* Hero Page */
 
 .heroPage
@@ -55,6 +60,7 @@
     background-color: var(--background-color);
     cursor: pointer;
     color: var(--accent-color);
+    display: inline-block;
 }
 
 .sitelogo h1

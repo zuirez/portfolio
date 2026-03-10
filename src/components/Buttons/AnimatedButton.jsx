@@ -8,6 +8,7 @@ const AnimatedButton = ({ text, backgroundColor, className, onClick }) => {
       className={`animated-button ${className || ''}`} 
       onClick={onClick}
       style={{ backgroundColor }}
+      data-cursor-text=" " data-cursor="-inverse"
     >
       <span className="text-top">
         {letters.map((letter, index) => (

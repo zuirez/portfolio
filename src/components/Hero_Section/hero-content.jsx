@@ -14,10 +14,10 @@ function hero_content()
 
             <div class="rightDiv">
                 <div class="rightDivText">
-                    <p class="hi">Hello! I<span class="apostrophe">'</span>m</p>
+                    <p className="hi">Hello! I<span class="apostrophe">'</span>m</p>
                     <p class="name">Rashed</p>
                     
-                    <div class="animatedText">
+                    <div className="animatedText">
                         I'm a <span></span>
                     </div>
                 </div>
