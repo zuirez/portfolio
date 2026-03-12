@@ -9,7 +9,7 @@ import cv from "../../assets/img/cv-white.png";
 function Nav() 
 {
   return (
-    <div className="navBar">
+    <div className="navBar" data-cursor="-inverse">
       <div className="navHome">
         <button className="navButton">
           <img src={home} alt="" className="navIcon" />Home
