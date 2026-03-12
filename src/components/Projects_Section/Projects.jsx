@@ -4,7 +4,7 @@ import "./Projects.css";
 function Projects() 
 {
     return (
-        <div className="projects">
+        <div className="projects" data-cursor="-inverse">
             <h2>Projects</h2>
             <p>Here are some of my projects:</p>
             
