@@ -33,6 +33,7 @@ body
 {
     scroll-behavior: unset;
     overscroll-behavior-y: none;
+    overflow-x: hidden;
 }
 
 html.lenis,
@@ -58,7 +59,7 @@ html.lenis body
 .heroPage
 {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: var(--background-color);
 }
 
@@ -114,6 +115,11 @@ html.lenis body
     z-index: 10;
 }
 
+.navBarLight
+{
+    background-color: var(--background-color);
+}
+
 
 
 /* Nav Button */
@@ -130,6 +136,11 @@ html.lenis body
     transition: gap 300ms cubic-bezier(0.1, 0.7, 0.22, 1.2);
 }
 
+.navBarLight .navButton
+{
+    color: var(--primary-color);
+}
+
 
 /* Nav Icons for nav bar */
 .navIcon
@@ -144,7 +155,12 @@ html.lenis body
     cursor: pointer;
     background-color: var(--primary-color);
     border: 0px solid var(--primary-color);
-    transition: height 300ms cubic-bezier(0.1, 0.7, 0.22, 1.2), width 300ms cubic-bezier(0.1, 0.7, 0.22, 1.2);
+    transition: height 300ms cubic-bezier(0.1, 0.7, 0.22, 1.2), width 300ms cubic-bezier(0.1, 0.7, 0.22, 1.2), background-color 300ms cubic-bezier(0.1, 0.7, 0.22, 1.2);
+}
+
+.navBarLight .navIcon
+{
+    background-color: var(--background-color);
 }
 
 .navText

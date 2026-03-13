@@ -1,9 +1,13 @@
-body
+.projectsSection
 {
-    overflow-x: hidden;
+	min-height: 100vh;
+	background-color: var(--primary-color);
+	color: var(--background-color);
+	padding: 7rem 1.5rem 5rem;
 }
 
-.projects
+.projectsInner
 {
-    background-color: black;
+	width: min(1100px, 100%);
+	margin: 0 auto;
 }
