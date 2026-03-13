@@ -12,35 +12,36 @@ function Nav()
     <div className="navBar" data-cursor="-inverse">
       <div className="navHome">
         <button className="navButton">
-          <img src={home} alt="" className="navIcon" />Home
+          <img src={home} alt="" className="navIcon" />
+          <span className="navText">Home</span>
         </button>
       </div>
 
       <div className="navProjects">
         <button className="navButton">
           <img src={projects} alt="Projects Button" className="navIcon" />
-          Projects
+          <span className="navText">Projects</span>
         </button>
       </div>
 
       <div className="navAbout">
         <button className="navButton">
           <img src={about} alt="About Button" className="navIcon" />
-          About
+          <span className="navText">About</span>
         </button>
       </div>
 
       <div className="navContact">
         <button className="navButton">
           <img src={contact} alt="Contact Button" className="navIcon" />
-          Contact
+          <span className="navText">Contact</span>
         </button>
       </div>
 
       <div className="navResume">
         <button className="navButton">
           <img src={cv} alt="CV Button" className="navIcon" />
-          Resume
+          <span className="navText">Resume</span>
         </button>
       </div>
     </div>
